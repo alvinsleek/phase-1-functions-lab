@@ -10,7 +10,7 @@ function distanceFromHqInBlocks(passLocation) {
 
     else{
         return(headquaters - passlocation);
-        return(headquaters - passLocation);
+        
     }
 }
 
@@ -21,7 +21,7 @@ function distanceFromHqInFeet(passLocation){
     return distanceTravelledInFeet * 264;
 }
 
-@ -27,8 +28,8 @@ function distanceTravelledInFeet(distanceTravelledInFeet, distanceFromHqInBlocks
+function distanceTravelledInFeet(distanceTravelledInFeet, distanceFromHqInBlocks
     return distance * 264;
 }
 
